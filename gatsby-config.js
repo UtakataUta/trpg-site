@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "trpg-site",
   siteMetadata: {
     title: `Fresh`,
     description: `GatsbyJS starter blog with the Fresh theme.`,
