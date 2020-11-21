@@ -23,7 +23,7 @@ module.exports = {
       linkedin: ``,
       formspree: ''
     },
-    image: '/icon.png',
+    image: 'src/images/utakata-icon.png',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -39,8 +39,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Icon Theme`,
-        short_name: `icon`,
+        name: `Utakata's TRPG Log`,
+        short_name: `Utakata's Log`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#129ca6`,
