@@ -1,36 +1,29 @@
 module.exports = {
   pathPrefix: "trpg-site",
   siteMetadata: {
-    title: `Fresh`,
-    description: `GatsbyJS starter blog with the Fresh theme.`,
-    author: `@mishal23`,
-    siteUrl: `https://gatsby-starter-fresh.netlify.app`,
+    title: `utakata's TRPG log`,
+    description: `This is a homepage that utakata's information about TRPG.`,
+    author: `@TRPG_utakata`,
+    siteUrl: `https://yoshikawa0711.github.io/trpg-site`,
     keywords: [
-      "mishal23",
-      "Mishal Shah",
-      "Gatsby",
-      "Fresh",
-      "themes",
-      "blog",
-      "PWA", 
-      "disqus", 
-      "Google Analytics", 
-      "markdown", 
-      "code highlighting",
-      "SEO",
-      "social media",
-      "sitemap",
-      "contact form"
+      "Utakata",
+      "TRPG_utakata",
+      "TRPG",
+      "Call of Cthulhu",
+      "CoC",
+      "泡沫",
+      "クトゥルフ神話TRPG",
+      "探索者", 
     ],
     social: {
-      twitter: ``,
+      twitter: `TRPG_utakata`,
       facebook: ``,
-      github: ``,
-      email: ``,
+      github: `yoshikawa0711`,
+      email: `ayato1998711+trpg@gmail.com`,
       linkedin: ``,
       formspree: ''
     },
-    image: '/fresh.png',
+    image: '/icon.png',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -46,13 +39,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Fresh Theme`,
-        short_name: `fresh`,
+        name: `Icon Theme`,
+        short_name: `icon`,
         start_url: `/`,
-        background_color: `#2d2a2a`,
-        theme_color: `#2d2a2a`,
+        background_color: `#ffffff`,
+        theme_color: `#129ca6`,
         display: `minimal-ui`,
-        icon: `src/images/fresh-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/utakata-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -89,12 +82,12 @@ module.exports = {
         pageTransitionDelay: 0,
       }
     },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `fresh`
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-disqus`,
+    //   options: {
+    //     shortname: `fresh`
+    //   }
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
