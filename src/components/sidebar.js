@@ -13,15 +13,29 @@ const SideBar = () => {
             title
             social {
               twitter
-              facebook
               github
               email
-              linkedin
             }
           }
         }
       }
     `
+    // graphql`
+    //   query {
+    //     site {
+    //       siteMetadata {
+    //         title
+    //         social {
+    //           twitter
+    //           facebook
+    //           github
+    //           email
+    //           linkedin
+    //         }
+    //       }
+    //     }
+    //   }
+    // `
   )
 
   const facebook = "https://facebook.com/" + site.siteMetadata.social.facebook
@@ -56,10 +70,10 @@ const SideBar = () => {
     <div className="sidebar-social">
       <li className="social-items"><a href={email} className="social-links" target="_blank" rel="noopener noreferrer"><FaEnvelope className="social-icons"/></a></li>
       <li className="social-items"><a href={github} className="social-links" target="_blank" rel="noopener noreferrer"><FaGithub className="social-icons"/></a></li>
-      <li className="social-items"><a href={linkedin} className="social-links" target="_blank" rel="noopener noreferrer"><FaLinkedin className="social-icons"/></a></li>
-      <li className="social-items"><a href={facebook} className="social-links" target="_blank" rel="noopener noreferrer"><FaFacebookF className="social-icons"/></a></li>
+      {/* <li className="social-items"><a href={linkedin} className="social-links" target="_blank" rel="noopener noreferrer"><FaLinkedin className="social-icons"/></a></li> */}
+      {/* <li className="social-items"><a href={facebook} className="social-links" target="_blank" rel="noopener noreferrer"><FaFacebookF className="social-icons"/></a></li> */}
       <li className="social-items"><a href={twitter} className="social-links" target="_blank" rel="noopener noreferrer"><FaTwitter className="social-icons"/></a></li>
-      <li className="social-items"><a href={telegram} className="social-links" target="_blank" rel="noopener noreferrer"><FaTelegramPlane className="social-icons"/></a></li>
+      {/* <li className="social-items"><a href={telegram} className="social-links" target="_blank" rel="noopener noreferrer"><FaTelegramPlane className="social-icons"/></a></li> */}
     </div>
 
   </div>
