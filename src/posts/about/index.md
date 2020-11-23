@@ -1,28 +1,21 @@
 ---
-title:  "About 🙋‍♂️"
-img: 
-description: "About Gatsby Starter Fresh Theme"
-keywords: about, gatsby
-date: 2020-07-12 16:00:00 +0530
+title:  "About Utakata"
+img: "../../images/utakata-icon.png"
+description: "About TRPG Player Named Utakata"
+keywords: about, utakata
+date: 2020-11-23 23:00:00 +0900
 blog: false
 
 ---
 
-Hi 👋, Welcome to the `gatsby-starter-fresh` theme. Hope you like this theme and use it for your personal blog! The blog has the following features:
+![logo](../../images/utakata-icon.png)
 
-- Built with GatsbyJS
-- Blazing fast loading times
-- Uses the fresh theme
-- Custom 404 page
-- Mobile Friendly
-- High quality code (A)
-- Component seperated code
-- SEO Friendly
-- Google Analytics
-- In-built contact form powered by Formspree
-- Markdown support for new posts
-- Code syntax highlighting
-- Disqus support for comments
-- Supports PWA
-- Social Media icons
-- Sitemap Generation
+こんにちは。泡沫と申します。クトゥルフ神話TRPGに関する、泡沫の探索者や通過済みシナリオをまとめてあります。
+
+始めたばかりでまだまだひよっこですが、楽しく遊んでいます。KPやってくださる方が身近にたくさんいらっしゃるので、基本的にPLのみをやっています。
+ココフォリアを使ったボイセがメインですが、オフセも経験あります。ルルブはCoC第6版を持っています。
+
+イラストが描けるので、探索者の立ち絵を描いたり、卓後の感情をイラストを描き起こして整理したりしています。
+Live2Dも使えるので、気が向いたら立ち絵を動かしたり、動画を作ろうとしたり(未完成)しています。
+
+セッションのお誘いやTRPG関連のお仕事の依頼などありましたら、Contact、またはTwitterのDMよりご連絡ください。
