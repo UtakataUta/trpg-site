@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaLinkedin, FaTwitter, FaGithub, FaFacebookF, FaEnvelope, FaTelegramPlane } from "react-icons/fa";
+// import { FaLinkedin, FaTwitter, FaGithub, FaFacebookF, FaEnvelope, FaTelegramPlane } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaEnvelope} from "react-icons/fa";
 import { useStaticQuery, graphql } from "gatsby"
 
 
@@ -38,11 +39,11 @@ const SideBar = () => {
     // `
   )
 
-  const facebook = "https://facebook.com/" + site.siteMetadata.social.facebook
+  // const facebook = "https://facebook.com/" + site.siteMetadata.social.facebook
   const github = "https://github.com/" + site.siteMetadata.social.github
   const email = "mailto:" + site.siteMetadata.social.email
-  const linkedin = "https://linkedin.com/in/" + site.siteMetadata.social.linkedin
-  const telegram = "https://t.me/" + site.siteMetadata.social.telegram
+  // const linkedin = "https://linkedin.com/in/" + site.siteMetadata.social.linkedin
+  // const telegram = "https://t.me/" + site.siteMetadata.social.telegram
   const twitter = "https://twitter.com/" + site.siteMetadata.social.twitter
 
   return (
