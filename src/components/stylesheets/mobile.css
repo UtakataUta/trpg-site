@@ -1,3 +1,5 @@
+@import url(color.css);
+
 .btn-group {
   padding-bottom: 0.7em;
 }
@@ -7,11 +9,11 @@
 }
 
 .navbtn {
-  background-color: #15f3a8;
+  background-color: var(--color-peacock);
   border: 1px;
   font-weight: 700;
   font-size: 16px;
-  color: #4a4545;
+  color: var(--color-aqua);
   border-radius: 0.2em;
   padding: 10px 10px 10px 10px;
   margin-top: 2px;
@@ -23,12 +25,12 @@
 }
 
 .navbtn:hover {
-  background-color: #15f3a8;
-  color: #4a4545;
+  background-color: var(--color-saxony);
+  color: var(--color-aqua);
 }
 
 .mob-menu-items:not(.active) .navbtn {
-  background-color: #4a4545;
+  background-color: var(--color-saxony);
   border: 1px;
   font-weight: 700;
   font-size: 16px;
@@ -40,13 +42,13 @@
 }
 
 li.active {
-  background-color: #15f3a8;
-  color: #4a4545 !important;
+  background-color: var(--color-peacock);
+  color: var(--color-aqua) !important;
 }
 
 a.active {
-  background-color: #15f3a8;
-  color: #4a4545 !important;
+  background-color: var(--color-peacock);
+  color: var(--color-aqua) !important;
 }
 
 @media only screen and (max-width: 700px) {

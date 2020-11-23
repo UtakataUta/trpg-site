@@ -1,5 +1,7 @@
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 
+@import url(color.css);
+
 /* Document
    ==========================================================================
  */
@@ -107,13 +109,13 @@ a {
   -webkit-text-decoration-skip: objects;
 
   /* 2 */
-  color: #15f3a8;
+  color: var(--color-peacock);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #1bdc9b;
+  color: var(--color-saxony);
 }
 
 /**
@@ -785,13 +787,13 @@ template {
 }
 
 body {
-  color: #515151;
+  color: var(--color-gunmetal);
   margin: 0;
   background-color: #ecf3f3;
 }
 
 blockquote {
-  border-left: 5px solid #15f3a8;
+  border-left: 5px solid var(--color-peacock);
   padding-left: 1.1rem;
   margin-left: 1.2rem;
   font-style: italic;
@@ -807,11 +809,11 @@ blockquote {
 .highlighter-rouge,
 .language-text,
 code {
-  color: #e74b3c;
-  font-weight: 400;
-  border: 1px solid #607d8b;
+  color: var(--color-cadmium);
+  font-weight: 500;
+  border: 1px solid var(--color-navy);
   border-radius: 3px;
-  padding: 0.1rem 0.5rem;
+  padding: 0.1rem 0.3rem;
 }
 
 pre code {
@@ -821,7 +823,7 @@ pre code {
 }
 
 .sidebar {
-  background-color: #2d2a2a;
+  background-color: var(--color-navy);
   position: fixed;
   top: 0;
   left: 0;
@@ -846,7 +848,7 @@ pre code {
   display: block;
   text-decoration: none;
   padding: 1rem 1.3rem;
-  color: #fff;
+  color: var(--color-gray);
   font-weight: 700;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
@@ -855,8 +857,8 @@ pre code {
 .sidebar-menu .menu-links:hover {
   -webkit-transform: translateY(3px);
   transform: translateY(3px);
-  background-color: #15f3a8;
-  color: #515151;
+  background-color: var(--color-peacock);
+  color: var(--color-aqua);
 }
 
 .sidebar-container {
@@ -879,7 +881,7 @@ pre code {
 
 .sidebar-logo .logo {
   /* font-family: 'Finger Paint', cursive; */
-  color: #15f3a8;
+  color: var(--color-cadmium);
   text-transform: uppercase;
   text-decoration: none;
   font-size: 3rem;
@@ -957,7 +959,7 @@ pre code {
   margin-bottom: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  color: #15f3a8;
+  color: var(--color-peacock);
   font-size: 2.5rem;
   margin-top: 0.67rem;
 }
@@ -971,7 +973,7 @@ pre code {
 .post .title-article a,
 .post .page-title a,
 .post .post-title a {
-  color: #15f3a8;
+  color: var(--color-peacock);
   text-decoration: none;
 }
 
@@ -984,14 +986,14 @@ pre code {
   font-size: 0.8rem;
   text-transform: uppercase;
   font-family: monospace;
-  color: lightgreen;
+  color: var(--color-saxony);
 }
 
 .main-article .more,
 .page-article .more,
 .post .more {
   text-decoration: none;
-  color: lightgreen;
+  color: var(--color-saxony);
 }
 
 img.post-image,
@@ -1000,8 +1002,8 @@ img.page-img {
 }
 
 .page-content {
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  /* padding-bottom: 1rem; */
+  margin-bottom: 0.5rem;
   border-bottom: 1px solid #ccc;
 }
 
@@ -1016,7 +1018,7 @@ img.page-img {
   text-transform: uppercase;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
   text-decoration: none;
-  background: #15f3a8;
+  background: var(--color-peacock);
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
 }
@@ -1082,7 +1084,7 @@ img.page-img {
   text-transform: uppercase;
   padding: 1rem 1.5rem;
   color: #fff;
-  background: #15f3a8;
+  background: var(--color-peacock);
   border: 0;
   border-radius: 0;
   outline: 0;
@@ -1093,7 +1095,7 @@ img.page-img {
 }
 
 .form-btn:hover {
-  background-color: #1bdc9b;
+  background-color: var(--color-saxony);
 }
 
 @media screen and (max-width: 960px) {

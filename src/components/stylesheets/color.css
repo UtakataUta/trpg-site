@@ -1,0 +1,13 @@
+/**
+ * Color definitions
+ */
+ :root {
+    --color-navy: #0F1E1F;
+    --color-saxony: #18565A;
+    --color-peacock: #129CA6;
+    --color-aqua: #D8FCFF;
+    --color-carrot : #C95614;
+    --color-cadmium : #FFB928;
+    --color-gunmetal : #323237;
+    --color-gray : #7D7D87;
+  }
