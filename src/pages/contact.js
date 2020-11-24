@@ -24,9 +24,9 @@ const ContactPage = () => {
 	<>
 	<SEO title="Contact" />
   	<Default/>
-  	<Post title="Get in touch 📝">
+  	<Post title="Contact">
   		<p>
-       Get in touch through the contact form below or through any social media
+	   連絡を取りたい場合は、下記のフォームかTwitterのDMよりお願いします。
   		</p>
     	<form className="form" action={site.siteMetadata.social.formspree} method="POST">
   			<div className="form-item">
