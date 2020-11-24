@@ -21,7 +21,7 @@ module.exports = {
       github: `yoshikawa0711`,
       email: `ayato1998711+trpg@gmail.com`,
       linkedin: ``,
-      formspree: ''
+      formspree: 'https://formspree.io/f/mdoplkol'
     },
     image: 'src/images/utakata-icon.png',
   },
