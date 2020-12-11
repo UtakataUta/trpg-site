@@ -1,6 +1,6 @@
 ---
 title: "Daiki Kagura"
-img: 
+img: ../../../images/icon-daiki.png
 description: "音楽に興味があり、中学から現在まで吹奏楽部でトロンボーンを演奏している。吹奏楽部では厳しい指導教員の目を盗みつつ"
 keywords: investigators, male
 date: 2020-12-12 05:20:00 +0900

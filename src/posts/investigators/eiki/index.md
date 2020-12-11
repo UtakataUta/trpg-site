@@ -1,6 +1,6 @@
 ---
 title: "Eiki Misaki"
-img: 
+img: ../../../images/icon-misaki.png
 description: "機械整備士の女性で現在28歳。6歳下の妹がいる。手先が器用で、お菓子を作ったり、自身の武器である拳銃を整備したり"
 keywords: investigators, female
 date: 2020-11-24 03:05:00 +0900

@@ -1,4 +1,5 @@
 import React from "react"
+import Image from "gatsby-image"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 
@@ -16,6 +17,13 @@ const BlogList = () => {
           }
           frontmatter {
             title
+            img {
+              childImageSharp{
+                fluid(maxWidth: 300){
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             date(formatString: "MMMM DD, YYYY")
             description
           }
@@ -35,6 +43,7 @@ const BlogList = () => {
           <article className="main-article">
             <div className="wrap-content">
               <header className="header-article">
+              <div className="icon"><Link to={node.fields.slug}><Image fluid={node.frontmatter.img.childImageSharp.fluid}/></Link></div>
                 <h2 className="title-article"><Link to={node.fields.slug}>{node.frontmatter.title}</Link></h2>
                 <div className="post-date"><span>{node.frontmatter.date}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
               </header>

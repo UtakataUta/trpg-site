@@ -1,6 +1,6 @@
 ---
 title: "Nagato Ryusei"
-img: 
+img: ../../../images/icon-ryusei.png
 description: "18歳の大学生男子。私立大学の歴史系の文学部に通っている。宇宙や星に関して興味があり、宇宙工学系の大学に進もうとしたが、"
 keywords: investigators, male
 date: 2020-11-24 03:00:00 +0900

@@ -1,6 +1,6 @@
 ---
 title: "Yua Katagiri"
-img: 
+img: ../../../images/icon-yua.png
 description: "母親病気がちで家におらず父親と2人暮らし。働いている父親のために学校帰りに買い物にほぼ毎日出かけている。父親からもらった"
 keywords: investigators, female
 date: 2020-12-12 05:35:00 +0900

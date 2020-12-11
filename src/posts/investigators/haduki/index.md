@@ -1,6 +1,6 @@
 ---
 title: "Hyuga Haduki"
-img: 
+img: ../../../images/icon-hyuga.png
 description: "割とインドア派な高校生。趣味はパソコンでネットサーフィンをしたり、音楽を聴いたりすること。自分でパソコンで作業したり、"
 keywords: investigators, male
 date: 2020-12-12 04:50:00 +0900

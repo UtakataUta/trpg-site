@@ -1,6 +1,6 @@
 ---
 title: "Jouyama Shunichi"
-img: 
+img: ../../../images/icon-shunichi.png
 description: "帝都に住む平民で現在24歳。ワタリ探偵事務所で探偵助手をしている。もともとは医学系の書生をしていたが、"
 keywords: investigators, male
 date: 2020-11-24 03:10:00 +0900

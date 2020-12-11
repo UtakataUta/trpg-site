@@ -1,6 +1,6 @@
 ---
 title: "Tatsuki Toshikawa"
-img: 
+img: ../../../images/icon-tatsuki.png
 description: "寿河家の長男。秀才だが長続きしない性格である。柔道部や風紀委員会の書記など様々なことに取り組んでいる。ただ、小学5年生には"
 keywords: investigators, male
 date: 2020-12-12 05:10:00 +0900

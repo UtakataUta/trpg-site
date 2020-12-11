@@ -1,6 +1,6 @@
 ---
 title: "Kento Kaidou"
-img: 
+img: ../../../images/icon-kento.png
 description: "高校一年生で格ゲーが趣味。PCゲームからコンシューマーゲーム、はたまた店頭にあるゲームまで色々こなす。"
 keywords: investigators, male
 date: 2020-12-12 05:00:00 +0900
