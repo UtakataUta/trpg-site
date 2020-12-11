@@ -936,7 +936,7 @@ pre code {
 .post .header-article,
 .post .page-header {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 .main-article .wrap-content,
@@ -996,9 +996,20 @@ pre code {
   color: var(--color-saxony);
 }
 
-img.post-image,
+/* img.post-image,
 img.page-img {
   width: 100%;
+} */
+
+.main-article .header-article .post-image,
+.main-article .page-header .post-image,
+.page-article .header-article .post-image,
+.page-article .page-header .post-image,
+.post .header-article .post-image,
+.post .page-header .post-image {
+  width: 20%;
+  display: inline-block;
+  margin: 1.0rem auto 0rem auto;
 }
 
 .page-content {
