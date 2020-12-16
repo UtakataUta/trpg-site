@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "trpg-site",
+  pathPrefix: "/trpg-site",
   siteMetadata: {
     title: `utakata's TRPG log`,
     description: `This is a homepage that utakata's information about TRPG.`,

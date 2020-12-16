@@ -4,14 +4,14 @@ import Default from "../components/default"
 import Post from "../components/post"
 import SEO from "../components/seo"
 // import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
-import useSiteMetadata from '../utils/site-metadata';
+// import useSiteMetadata from '../utils/site-metadata';
 import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 deckDeckGoHighlightElement();
 
 
 const BlogPost = ({ path, data }) => {
   const { markdownRemark } = data
-  const { siteUrl } = useSiteMetadata();
+  // const { siteUrl } = useSiteMetadata();
 
   // let disqusConfig = {
   //   url: `${siteUrl}${path}`,
