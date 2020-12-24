@@ -3,7 +3,7 @@ title:  "Scenarios"
 img: 
 description: "Utakata Experienced Scenarios"
 keywords: Scenario
-date: 2020-12-12 04:35:00 +0900
+date: 2020-12-24 22:50:00 +0900
 blog: false
 
 ---
@@ -28,3 +28,4 @@ blog: false
 |ニャルットモンスター                    |神楽 大器|                                              |
 |すし卓メンツにならないと出られない部屋　|寿河 幸築|                                              |
 |信仰、或いは真実の縮図                  |NO NAME  |                                              |
+|おみくじ引いたら凶だった！              |街道 拳闘|                                             |
