@@ -4,7 +4,7 @@ module.exports = {
     title: `utakata's TRPG log`,
     description: `This is a homepage that utakata's information about TRPG.`,
     author: `@TRPG_utakata`,
-    siteUrl: `https://yoshikawa0711.github.io/trpg-site`,
+    siteUrl: `https://UtakataUta.github.io/trpg-site`,
     keywords: [
       "Utakata",
       "TRPG_utakata",
