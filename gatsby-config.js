@@ -18,7 +18,7 @@ module.exports = {
     social: {
       twitter: `TRPG_utakata`,
       facebook: ``,
-      github: `yoshikawa0711`,
+      github: `UtakataUta`,
       email: `ayato1998711+trpg@gmail.com`,
       linkedin: ``,
       formspree: 'https://formspree.io/f/mdoplkol'
